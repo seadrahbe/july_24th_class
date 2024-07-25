@@ -1,0 +1,131 @@
+/*
+
+CSS rules you may need for reference:
+
+- font-family
+    - Arial, sans-serif
+- line-height
+- color
+- margin
+- padding
+- background-color
+- border-radius
+- border-left
+- border-bottom
+- margin-top
+- padding-left
+- padding-bottom
+- width
+- height
+- margin-bottom
+- font-size
+
+*/
+
+/* Write your CSS code here */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  color: rgb(55, 97, 129);
+}
+
+body {
+  background-color: rgb(240, 239, 239);
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: white;
+  background-color: rgb(51, 139, 197);
+  padding: 15px 0;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+main {
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+section {
+  background-color: rgb(247, 247, 247);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+section h2 {
+  border-left: 1px solid rgb(46, 170, 219);
+  border-bottom: 1px solid rgb(46, 170, 219);
+  padding-left: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+p::first-letter {
+  font-size: 115%;
+  font-weight: 500;
+}
+
+img {
+  border-radius: 10px;
+}
+
+table {
+  margin-bottom: 20px;
+}
+
+table tr th {
+  color: white;
+  background-color: rgb(46, 170, 219);
+  padding: 10px;
+}
+
+table tr:nth-child(odd) {
+  background-color: white;
+}
+
+table tr:hover {
+  background-color: antiquewhite;
+}
+
+table tr td {
+  padding: 10px;
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+footer p {
+  font-size: small;
+  color: rgb(161, 161, 161);
+}
+
+/* Animation attempt*/
+
+@keyframes example {
+  from {
+    background-color: rgb(243, 181, 248);
+  }
+  to {
+    background-color: rgb(250, 229, 162);
+  }
+}
+
+body {
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+img:hover {
+}
